@@ -1,0 +1,78 @@
+/*Navigation bar*/
+.nav{
+    display:grid;
+    background-color: lightslategray;
+    grid-template-columns: auto auto auto;
+    justify-content:space-evenly;
+    grid-row: 1;
+}
+
+.nav > div{
+    background-color:white;
+    font-size: 1em;
+    margin:10px;
+    padding:5px;
+    color:white;
+    border-radius: 15px;
+}
+
+.nav :hover {
+    background-color:lightgray;
+}
+
+/*Heading of webpage*/
+.header{
+    display:grid;
+    grid-row: 2;
+    background-color: lightslategray;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+/*Content of webpage*/
+.content{
+    background-color: lightslategray;
+    color:white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%;
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-column-gap:10px;
+    grid-row-gap:10px;
+    grid-row: 3;
+    align-items: center;
+}
+
+.box1{
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.box2{
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.box3{
+    grid-row: 3;
+    grid-column: 3;
+}
+
+/*Footer*/
+.footer{
+    display:grid;
+    grid-row: 4;
+    background-color: lightslategray;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+
+/*Titles of sections*/
+#title{
+    text-decoration: underline;
+}
