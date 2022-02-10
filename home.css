@@ -1,0 +1,56 @@
+/*Navigation bar*/
+.nav{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content:space-evenly;
+    grid-row: 1;
+}
+
+.nav > div{
+    background-color:white;
+    font-size: 1em;
+    margin:10px;
+    padding:5px;
+    color:white;
+    border-radius: 15px;
+}
+
+.nav :hover {
+    background-color:lightgray;
+}
+
+/*Header*/
+.header{
+    display:grid;
+    grid-row: 2;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+/*Background image*/
+html{
+    min-width:100
+    min-height:100%;
+    background:url("images/careers.jpg") no-repeat center center fixed;
+   -webkit-background-size:cover;
+   -moz-background-size:cover;
+   -o-background-size:cover;
+   background-size:cover;
+}
+
+/*Introduction of webpage*/
+.body{
+    font-size: 40px;
+    color: white;
+    text-align:center;
+    padding-top: 1%;
+}
+
+/*Footer*/
+.footer{
+    font-size: 20px;
+    color: white;
+    text-align:center;
+    padding-top: 34%;
+}
